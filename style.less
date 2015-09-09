@@ -4,40 +4,81 @@
 @black: #000000;
 @bluegrass: @black + #080;
 
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.headermixin (@a) when (lightness(@a) >= 50%) {
+  background-color: black;
+}
+.headermixin (@a) when (lightness(@a) < 50%) {
+  background-color: white;
+}
+.headermixin (@a) {
+  color: @a;
+}
+
 div{
 	border: 1px solid black;
 }
 .header{
 	background-color: @light-blue;
 	height: 40px;
+	.border-radius;
 }
+
+
 .aboutLink{
 	height:40px;
 	width:20%;
+	.border-radius;
+	
 }
+.aboutLink:hover{
+	background-color: saturate(@light-blue,30);
+}
+
 
 .skillsLink{
 	height:40px;
 	width:20%;
 	margin: -42px 0px 0px 20%;
+	.border-radius;
+}
+.skillsLink:hover{
+	background-color: saturate(@light-blue,30);
 }
 
 .resumeLink{
 	height:40px;
 	width:20%;
 	margin: -42px 0px 0px 40%;
+	.border-radius;
+}
+.resumeLink:hover{
+	background-color: saturate(@light-blue,30);
 }
 
 .projectsLink{
 	height:40px;
 	width:20%;
 	margin: -42px 0px 0px 60%;
+	.border-radius;
+}
+.projectsLink:hover{
+	background-color: saturate(@light-blue,30);
 }
 
 .contactLink{
 	height:40px;
 	width:20%;
 	margin: -42px 0px 0px 80%;
+	.border-radius;
+}
+.contactLink:hover{
+	background-color: saturate(@light-blue,30);
 }
 
 .aboutPar1{
@@ -63,6 +104,7 @@ div{
 }
 a{
 	text-decoration:none;
+	.headermixin(white);
 }
 p{ 
 	font-family: "", serif;

@@ -4,30 +4,63 @@ div {
 .header {
   background-color: #6c94be;
   height: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .aboutLink {
   height: 40px;
   width: 20%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.aboutLink:hover {
+  background-color: #4c93de;
 }
 .skillsLink {
   height: 40px;
   width: 20%;
   margin: -42px 0px 0px 20%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.skillsLink:hover {
+  background-color: #4c93de;
 }
 .resumeLink {
   height: 40px;
   width: 20%;
   margin: -42px 0px 0px 40%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.resumeLink:hover {
+  background-color: #4c93de;
 }
 .projectsLink {
   height: 40px;
   width: 20%;
   margin: -42px 0px 0px 60%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.projectsLink:hover {
+  background-color: #4c93de;
 }
 .contactLink {
   height: 40px;
   width: 20%;
   margin: -42px 0px 0px 80%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.contactLink:hover {
+  background-color: #4c93de;
 }
 .aboutPar1 {
   height: 200px;
@@ -49,6 +82,8 @@ div {
 }
 a {
   text-decoration: none;
+  background-color: black;
+  color: white;
 }
 p {
   font-family: "", serif;
