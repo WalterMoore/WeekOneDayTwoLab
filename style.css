@@ -1,129 +1,91 @@
-div{
-	border: 1px solid black;
+div {
+  border: 1px solid black;
 }
-.header{
-	background-color:teal;
-	height: 40px;
+.header {
+  color: #6c94be;
+  height: 40px;
 }
-.aboutLink{
-	height:40px;
-	width:20%;
+.aboutLink {
+  height: 40px;
+  width: 20%;
 }
-
-.skillsLink{
-	height:40px;
-	width:20%;
-	margin: -42px 0px 0px 20%;
+.skillsLink {
+  height: 40px;
+  width: 20%;
+  margin: -42px 0px 0px 20%;
 }
-
-.resumeLink{
-	height:40px;
-	width:20%;
-	margin: -42px 0px 0px 40%;
+.resumeLink {
+  height: 40px;
+  width: 20%;
+  margin: -42px 0px 0px 40%;
 }
-
-.projectsLink{
-	height:40px;
-	width:20%;
-	margin: -42px 0px 0px 60%;
+.projectsLink {
+  height: 40px;
+  width: 20%;
+  margin: -42px 0px 0px 60%;
 }
-
-.contactLink{
-	height:40px;
-	width:20%;
-	margin: -42px 0px 0px 80%;
+.contactLink {
+  height: 40px;
+  width: 20%;
+  margin: -42px 0px 0px 80%;
 }
-
-.aboutPar1{
-	height:200px;
-	width:50%;
+.aboutPar1 {
+  height: 200px;
+  width: 50%;
 }
-
-.aboutPar2{
-	height:200px;
-	width:50%;
-	margin: -202px 0px 0px 50%;
+.aboutPar2 {
+  height: 200px;
+  width: 50%;
+  margin: -202px 0px 0px 50%;
 }
-
-.skillsPar1{
-	height:100px;
-	width:50%;
+.skillsPar1 {
+  height: 100px;
+  width: 50%;
 }
-
-.skillsPar2{
-	height:100px;
-	width:50%;
-	margin: -102px 0px 0px 50%
+.skillsPar2 {
+  height: 100px;
+  width: 50%;
+  margin: -102px 0px 0px 50%;
 }
-a{
-	text-decoration:none;
+a {
+  text-decoration: none;
 }
-p{ 
-	font-family: "", serif;
-	color: white;
-	font-size:14px;
-	text-align:center;
+p {
+  font-family: "", serif;
+  color: white;
+  font-size: 14px;
+  text-align: center;
 }
-
-.projTitle{
-	color:black;
-	font-weight:bold;
-	text-align:left;
-	margin: 5px 0px 0px 5px;
+.projTitle {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px 0px 0px 5px;
 }
-
-.proj{
-	color:black;
-	text-align:left;
-	margin: 0px 0px 5px 5px;
+.proj {
+  color: black;
+  text-align: left;
+  margin: 0px 0px 5px 5px;
 }
-
-.positiontitle{
-	color: black;
-	font-weight:bold;
-	text-align:left;
-	margin: 5px 0px 0px 5px;
+.positiontitle {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px 0px 0px 5px;
 }
-.date{
-	font-style:italic;
+.date {
+  font-style: italic;
 }
-
-h1{
-	font-family: "",serif;
-	font-size: px;
-	color: black;
-	text-align:center;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: serif;
+  color: black;
+  text-align: center;
 }
-
-h2{
-	font-family: "",serif;
-	font-size: px;
-	color: black;
-	text-align:center;
-}
-
-h3{
-	font-family: "",serif;
-	font-size: px;
-	color: black;
-	text-align:center;
-}
-
-h4{
-	font-family: "",serif;
-	font-size: px;
-	color: black;
-	text-align:center;
-}
-
-h5{
-	font-family: "", serif;
-	font-size: px;
-	color: black;
-	text-align: center;
-}
-
-/*following code copied from solution*/
+/*following code copied from solution, altered to create some nested elements*/
 div#contact {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -206,5 +168,3 @@ footer li:hover {
 footer li:hover a {
   color: white;
 }
-
-			
