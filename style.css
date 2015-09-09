@@ -2,7 +2,7 @@ div {
   border: 1px solid black;
 }
 .header {
-  color: #6c94be;
+  background-color: #6c94be;
   height: 40px;
 }
 .aboutLink {
@@ -82,7 +82,7 @@ h3,
 h4,
 h5 {
   font-family: serif;
-  color: black;
+  color: #008800;
   text-align: center;
 }
 /*following code copied from solution, altered to create some nested elements*/

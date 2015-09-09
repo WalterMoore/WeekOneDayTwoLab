@@ -1,12 +1,14 @@
 @nice-blue: #5B83AD;
 @light-blue: @nice-blue + #111;
 
+@black: #000000;
+@bluegrass: @black + #080;
 
 div{
 	border: 1px solid black;
 }
 .header{
-	color: @light-blue;
+	background-color: @light-blue;
 	height: 40px;
 }
 .aboutLink{
@@ -94,7 +96,7 @@ p{
 
 h1, h2, h3, h4, h5{
 	font-family: serif;
-	color: black;
+	color: @bluegrass;
 	text-align:center;
 }
 
