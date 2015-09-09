@@ -55,7 +55,9 @@ div{
 	width:50%;
 	margin: -102px 0px 0px 50%
 }
-
+a{
+	text-decoration:none;
+}
 p{ 
 	font-family: "", serif;
 	color: white;
@@ -81,6 +83,9 @@ p{
 	font-weight:bold;
 	text-align:left;
 	margin: 5px 0px 0px 5px;
+}
+.date{
+	font-style:italic;
 }
 
 h1{
@@ -118,5 +123,88 @@ h5{
 	text-align: center;
 }
 
+/*following code copied from solution*/
+div#contact {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  color: #639ba8;
+  background: #a4c5cd;
+  padding: 20px 0;
+  color: white;
+  width: 600px;
+  margin: 20px auto;
+}
+form {
+  width: 300px;
+  margin: 20px auto 0;
+}
+form label {
+  width: 290px;
+  display: block;
+  padding: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: left;
+}
+form input {
+  width: 290px;
+  display: block;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 0 10px;
+  border: none;
+  font-size: 20px;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+}
+form #message {
+  height: 200px;
+}
+form #submit {
+  color: #639ba8;
+  background: white;
+  width: 300px;
+  font-style: normal;
+}
+form #submit:hover {
+  color: white;
+  background: #3b616a;
+}
+footer {
+  text-align: center;
+  height: 3em;
+  color: #639ba8;
+  background: white;
+  padding: 12px;
+  width: 600px;
+  border-top: #a4c5cd solid;
+  margin: 40px auto 0;
+}
+footer ul {
+  margin: 10px;
+}
+footer ul li {
+  display: inline;
+  padding: 12px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #639ba8;
+}
+footer li:hover {
+  background: #3b616a;
+}
+footer li:hover a {
+  color: white;
+}
 
 			
